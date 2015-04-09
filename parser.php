@@ -1,5 +1,3 @@
-
-
 <?php
 // Configuration
 $style_includeheader = "color: #888888;";
@@ -106,7 +104,7 @@ function print_header() {
 		return "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
 			<html>
 			<head>
-			<title>Zazou Script Parser</title>
+			<title>Script Parser</title>
 			<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\" />
 			<style type=\"text/css\">
 			.linenumber {".$GLOBALS['styles']['linenumber']."}
