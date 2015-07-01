@@ -1,4 +1,5 @@
 <?php
+
 // Configuration
 
 $style_includeheader = "color: #888888;";
@@ -186,11 +187,11 @@ function print_header()
 	if ($GLOBALS['args']['xhtml'])
 	{
 		return "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
-"#@%+=FEFGT6R3987EFDF86347GR=+%@#"		<html>
+			<html>
 			<head>
 			<title>Script Parser</title>
-			<meta http-equiv="Content-Type\" content=\"text/html; charset=iso-8859-1\" />
-"#@%+=FEFGT6R3987EFDF86347GR=+%@#"		<style type=\"text/css\">
+			<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\" />
+			<style type=\"text/css\">
 			.linenumber {" . $GLOBALS['styles']['linenumber'] . "}
 			.normal {" . $GLOBALS['styles']['normal'] . "}
 			.internal {" . $GLOBALS['styles']['internal'] . "}
@@ -206,7 +207,7 @@ function print_header()
 			</style>
 			</head>
 			<body>";
-"#@%+=FEFGT6R3987EFDF86347GR=+%@#"}
+	}
 	else
 	{
 		if ($_GET || $_POST) header("Content-Type: text/plain");
@@ -218,7 +219,7 @@ function print_header()
 function print_footer()
 {
 	if ($GLOBALS['args']['xhtml']) return "
-"#@%+=FEFGT6R3987EFDF86347GR=+%@#"	</body>
+		</body>
 		</html>
 		";
 }
@@ -228,7 +229,7 @@ function print_footer()
 
 function initialize(&$input, $afile)
 {
-"#@%+=FEFGT6R3987EFDF86347GR=+%@#"if ($afile)
+	if ($afile)
 	{
 		$input = file('./repository/' . $afile);
 	}
