@@ -1,4 +1,4 @@
-<h1>PHP Code Parser</1>
+<h1>PHP Code Parser</h1>
 
 If you want parsing PHP code, the script is good for you =)
 
