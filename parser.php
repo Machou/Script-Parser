@@ -11,6 +11,7 @@ $style_classes = "color: #880000; font-weight: bold;";
 $style_variable = "color: #008800;";
 $style_string = "color: #880000;";
 $style_comment = "color: #aaaaaa;";
+
 /* *** NE PAS EDITER EN DESSOUS EN CETTE LIGNE *** */
 $tps_begin = microtime();
 
